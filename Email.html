@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <p>Good Day <?= fn ?>, </p>
+    <p>I hope this email finds you well.
+      <br>  <br>
+As you may know, many of South Africa’s best commercial property brokers rely on us at Gmaven to keep their <a href="https://blog.gmaven.com/commercial-property-crm/what-is-the-gmaven-data-feed/" >vacancies up to date</a>. This means we try very hard to make sure your information is as accurate as possible in their systems, every month.
+
+     <br>  <br>
+This is a heads up to let you know that we haven’t received this specific vacancy schedule (called <?= Business_Name ?>) from you since <?= Since_Vacant ?>. And we are worried that brokers will have outdated info. 
+
+     <br>  <br>
+These are the units we have. 
+     <br>  <br>
+
+
+<table style="border-collapse:collapse; border-spacing:0;">
+<tbody >
+<tr >
+<th  style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa" >Property Name</th> 
+<th  style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Building Name</th> 
+<th  style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Unit ID</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Unit Space</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Availability</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Avail. detail</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Rent POR</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Gross Rent</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#fafafa">Months unit vacant</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#c9e9f6">No longer vacant</th> 
+<th style="padding: 10px; margin:0px; border:1px solid black; background-color:#c9e9f6">Your comments</th></tr>
+<tr >
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Property_Name ?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Building_Name ?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Unit_No ?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Unit_GLA ?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Available_Type ?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Available_Date ?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Rent_TBA ?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Gross_Rent?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black"><?= Months_Vacant?></td>
+<td style="padding: 10px; margin:0px; border:1px solid black; background-color:#c9e9f6"></td>
+<td style="padding: 10px; margin:0px; border:1px solid black; background-color:#c9e9f6"></td>
+</tr>
+
+</tbody>
+</table>
+<br>  <br>
+Two options:
+<br>  <ol>
+<li>Please send the latest  <?= Business_Name ?> vacancy schedule with the vacancies above to inh_vacancies_sa@gmaven.com</li>
+<li>Please update the information in the light blue fields in the table above</li>
+</ol>
+If you have any questions, please feel free to reach out to us, we will be happy to help.
+<br>  <br>
+Thanking you in advance.
+<br>  <br>
+Kind regards
+<br> 
+Francois Lotter
+<br> 
+Operations
+<br>
+Gmaven
+
+
+</p>
+  </body>
+</html>
